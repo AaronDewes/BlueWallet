@@ -36,7 +36,7 @@ it('Selftest work', () => {
 
   let okFound = false;
   const allTests = [];
-  for (var v of root.findAllByType('Text')) {
+  for (const v of root.findAllByType('Text')) {
     let text = v.props.children;
     if (text.join) {
       text = text.join('');

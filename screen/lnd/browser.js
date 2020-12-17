@@ -48,7 +48,7 @@ var webln = {
     });
   },
   makeInvoice: function (RequestInvoiceArgs) {
-    var id = Math.random();
+    const id = Math.random();
     window.ReactNativeWebView.postMessage(JSON.stringify({ makeInvoice: RequestInvoiceArgs, id: id }));
     return new Promise(function (resolve, reject) {
       var interval = setInterval(function () {

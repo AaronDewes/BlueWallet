@@ -115,7 +115,7 @@ export default class ElectrumSettings extends Component {
   };
 
   onBarScanned = value => {
-    var [host, port, type] = value.split(':');
+    const [host, port, type] = value.split(':');
     this.setState({ host: host });
     type === 's' ? this.setState({ sslPort: port }) : this.setState({ port: port });
   };
