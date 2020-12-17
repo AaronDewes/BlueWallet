@@ -156,7 +156,7 @@
     "react-native-svg": "12.1.0",
     "react-native-tcp-socket": "4.5.4",
     "react-native-tooltip": "git+https://github.com/BlueWallet/react-native-tooltip.git#d369e7ece09e4dec73873f1cfeac83e9d35294a6",
-    "react-native-tor": "git+https://github.com/AaronDewes/react-native-tor#cba924194186d3425d53e760f936b42cabcf0940",
+    "react-native-tor": "git+https://github.com/AaronDewes/react-native-tor#71fcbb719081a5cfe71cfd8f7aa81297e7466c4a",
     "react-native-vector-icons": "7.1.0",
     "react-native-watch-connectivity": "1.0.3",
     "react-native-webview": "11.0.2",
